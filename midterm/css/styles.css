@@ -3,12 +3,22 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #aad4cf;
+  }
+
+  body {
+    background-color: #D8E8E7;
   }
 
 nav ul{
     list-style: none;
     text-decoration: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 150px;
+    text-align: center;
 }
 
 a {

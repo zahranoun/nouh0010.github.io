@@ -10,6 +10,17 @@ header {
     background-color: rgb(196, 142, 43);
 }
 
-ul {
+nav ul {
+list-style: none;
+padding: 0;
 
+}
+
+nav ul li {
+    text-align: center;
+    
+}
+
+nav ul li a {
+    
 }

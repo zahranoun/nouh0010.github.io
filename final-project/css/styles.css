@@ -1,0 +1,15 @@
+header {
+    height: 750px;
+    width: auto;
+    background-color: rgb(34, 34, 34)
+}
+
+#rectangle {
+    height: auto;
+    width: auto;
+    background-color: rgb(196, 142, 43);
+}
+
+ul {
+
+}

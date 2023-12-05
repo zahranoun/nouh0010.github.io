@@ -3,6 +3,14 @@ header {
     width: auto;
     background-color: #222;
 }
+img {
+    width: 100%;
+    height: auto;   
+}
+
+header img {
+    max-width: 100px;
+}
 
 #rectangle {
     background-color: rgb(196, 142, 43);
@@ -61,16 +69,18 @@ nav ul li:nth-child(5) a {
 
 nav input {
     height: 40px;
-    width: 90%
+    width: 100%
+
+}
+nav button {
+    width: 4em;
 
 }
 
 nav form {
     display: flex;
-    
+
 }
 
-img {
-    height: auto;
-    width: 1080;
-}
+
+

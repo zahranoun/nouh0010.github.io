@@ -3,6 +3,8 @@ header {
     width: auto;
     background-color: #222;
 }
+
+
 img {
     width: 100%;
     height: auto;   
@@ -10,18 +12,29 @@ img {
 
 header img {
     max-width: 100px;
+    height: auto
 }
+
+.banner-text {
+    position: absolute;
+    top: 110%;
+    color: #fff;
+    padding: 50px
+    font-weight: bold;
+}
+
+.banner-text p {
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    padding: 20px
+}
+
 
 #rectangle {
     background-color: rgb(196, 142, 43);
     margin: 1em;
     height: calc(100px + 1em);
-}
-
-#rectangle {
-    background-color: rgba(196, 142, 43, 0.253);
-    margin: 5em;
-    height: calc(50px + 1em);
 }
 
 nav ul {
@@ -85,6 +98,8 @@ nav button {
 
 nav form {
     display: flex;
+
+
 
 }
 

@@ -18,6 +18,12 @@ header img {
     height: calc(100px + 1em);
 }
 
+#rectangle {
+    background-color: rgba(196, 142, 43, 0.253);
+    margin: 5em;
+    height: calc(50px + 1em);
+}
+
 nav ul {
 list-style: none;
 padding: 0;

@@ -8,18 +8,13 @@
                 <link rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
                     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">   
+                    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
                     <link href="css/styles.css" rel="stylesheet">
             </head>
             <body>
-
+                
                 <header>
                     <div class="wrapper" id="rectangle">
                         <!--Navigation-->
@@ -38,7 +33,7 @@
                             <!--Search Bar-->
                             <form action="#">
                                 <input type="text" placeholder="Search">
-                                <button type="submit" id="click"><span class="material-symbols-outlined">
+                                <button type="submit" id="click"><span class="material-symbols-outlined" id="search">
                                         search
                                     </span>
                                 </button>
@@ -58,7 +53,7 @@
                                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
                                 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                                 est laborum.</p>
-                            <button type="button" id="connect">Connect With Us</button><span class="material-symbols-outlined">
+                            <button type="button" id="connect">Connect With Us</button><span class="material-symbols-outlined" id="play">
                                 play_arrow
                             </span>
                         </div>
@@ -67,22 +62,18 @@
 
                 <!--About Page-->
                 <section id="about">
+                    <div id="about-container">
                     <div class="wrapper">
                         <img src="img/images/about-us.jpg" alt="about image">
                         <div id="about-text">
                             <h2>About Us</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.</p>
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.</p>
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -99,10 +90,7 @@
                                 <h3>Digital Transformation</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p>
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <button type="button" class="service-btn">Digital Plans</button><span
                                     class="material-symbols-outlined">
                                     play_arrow
@@ -201,8 +189,8 @@
                         <div class="team-container">
 
                             <!--Team 1-->
-                            <div class="our-team">
-                                <img src="img/images/john.jpg" alt=" person 1 image">
+                            <div class="our-team" id="person-one">
+                                <img src="img/images/john.jpg" alt="person 1 image">
                                 <div class="our-team-text">
                                     <h3>John Doe</h3>
                                     <h4>CEO and Co-owner</h4>
@@ -217,7 +205,7 @@
                             </div>
 
                             <!--Team 2-->
-                            <div class="our-team">
+                            <div class="our-team" id="person-two">
                                 <img src="img/images/bob.jpg" alt="person 2 image">
                                 <div class="our-team-text">
                                     <h3>Bob Rite</h3>

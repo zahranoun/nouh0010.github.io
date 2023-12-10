@@ -172,11 +172,11 @@ h2 {
     width: 100%;
 }
 
-.service h3 {
+.services h3 {
   padding: 0.8rem;
 }
 
-.service p {
+.services p {
   padding: 0.8rem;
   line-height: 1.5;
 }
@@ -318,7 +318,7 @@ footer a:active, a:link, a:hover, a:visited {
     padding: 1rem;
   }
 
-  nav ul li: first-child {
+  nav ul li:first-child {
     background-color: #c78c06;
   }
 

@@ -161,10 +161,12 @@ h1 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 150%;
+  margin-left: 0.4rem;
 }
 
 main p {
   margin-top: 1.7rem;
+  margin-left: 0.4rem;
   margin-bottom: 1rem;
   line-height: 150%;
 }
@@ -177,6 +179,7 @@ main p {
   padding: 1rem;
   border: 0;
   font-size: 1.2rem;
+  margin-left: 0.4rem;
 }
 
 .material-symbols-outlined {
@@ -223,6 +226,7 @@ h2 {
 
 #about p {
   line-height: 1.5;
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 760px) {
@@ -291,6 +295,7 @@ h2 {
   padding: 1rem;
   margin-left: 0.8rem;
   font-size: 1rem;
+  width: 95%;
 }
 
 .service-btn .material-symbols-outlined {
@@ -327,6 +332,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .vision p {
@@ -348,6 +355,13 @@ h2 {
   color: white;
 }
 
+@media only screen and (max-width: 760px) {
+  #vision {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
 /* Team page */
 
 #our-team img {
@@ -361,9 +375,9 @@ h2 {
 }
 
 .our-team-text h3 {
-  margin-right: 20rem;
+  margin-left: 1rem;
   margin-top: 20px;
-  text-align: right;
+  text-align: left;
 }
 
 .our-team hr {
@@ -382,6 +396,7 @@ h2 {
 
 .our-team-text p {
   padding: 1rem;
+  line-height: 25px;
 }
 
 @media screen and (min-width: 760px) {
@@ -402,6 +417,12 @@ h2 {
 
 /* Contact Page */
 
+#contact {
+  padding: 15rem;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+
 #contact form {
   margin-top: 1rem;
   display: flex;
@@ -412,6 +433,7 @@ h2 {
 #contact input {
   border: 1px black solid;
   width: 90%;
+  height: 30px;
 }
 
 #contact textarea {
@@ -430,6 +452,7 @@ h2 {
 
 #hours-of-operation h3 {
   padding-bottom: 1rem;
+  padding-top: 5rem;
 }
 
 table {
@@ -460,7 +483,7 @@ th {
 }
 
 iframe {
-  height: 450px;
+  height: 600px;
   width: 100%;
 }
 
@@ -487,12 +510,37 @@ iframe {
   }
 }
 
+@media only screen and (max-width: 760px) {
+  #contact {
+    padding: 1rem;
+  }
+
+  #contact input,
+  #contact textarea {
+    width: 100%;
+  }
+
+  #hours-of-operation h3 {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+
+  #location h3 {
+    padding-top: 1rem;
+  }
+}
+
 /* Footer page */
 
 footer {
   background-color: #222;
   color: #c78c06;
   padding: 2rem;
+}
+
+footer p {
+  line-height: 40px;
+  margin-left: 5rem;
 }
 
 footer a:active,

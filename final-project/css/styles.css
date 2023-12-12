@@ -240,6 +240,7 @@ h2 {
 
   #about-text {
     padding: 1rem;
+    text-indent: 2px;
   }
 }
 
@@ -463,11 +464,11 @@ iframe {
     order: 1;
   }
 
-  #ending-container section:nth-child(3) {
+  #ending-container section:nth-child(2) {
     order: 2;
   }
 
-  #ending-container section:nth-child(2) {
+  #ending-container section:nth-child(1) {
     order: 3;
     grid-column: 1 / 3;
   }

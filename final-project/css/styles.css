@@ -360,15 +360,29 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.our-team hr {
-  height: 0.1 rem;
-  background-color: #c78c06;
-  border: 1px solid black;
+.our-team-text h3 {
+  margin-right: 280px;
+  margin-bottom: 1px;
+  margin-top: 20px;
+  text-align: right;
 }
 
-.our-team-text {
+.our-team hr {
+  margin: auto;
+  width: 25rem;
+  align-self: center;
+  height: 0.1 rem;
+  background-color: #c78c06;
+  border: 1px solid #c78c06;
+}
+
+.our-team-text h4 {
   padding: 1rem;
   font-weight: bold;
+}
+
+.our-team-text p {
+  padding: 1rem;
 }
 
 @media screen and (min-width: 760px) {
@@ -477,6 +491,7 @@ iframe {
 /* Footer page */
 
 footer {
+  background-color: #222;
   color: #c78c06;
   padding: 2rem;
 }

@@ -361,15 +361,14 @@ h2 {
 }
 
 .our-team-text h3 {
-  margin-right: 280px;
-  margin-bottom: 1px;
+  margin-right: 20rem;
   margin-top: 20px;
   text-align: right;
 }
 
 .our-team hr {
   margin: auto;
-  width: 25rem;
+  width: 35rem;
   align-self: center;
   height: 0.1 rem;
   background-color: #c78c06;

@@ -464,11 +464,11 @@ iframe {
     order: 1;
   }
 
-  #ending-container section:nth-child(2) {
+  #ending-container section:nth-child(3) {
     order: 2;
   }
 
-  #ending-container section:nth-child(1) {
+  #ending-container section:nth-child(2) {
     order: 3;
     grid-column: 1 / 3;
   }
@@ -477,7 +477,6 @@ iframe {
 /* Footer page */
 
 footer {
-  background-color: #222;
   color: #c78c06;
   padding: 2rem;
 }
